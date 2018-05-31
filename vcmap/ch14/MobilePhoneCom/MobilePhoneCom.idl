@@ -1,0 +1,38 @@
+// MobilePhoneCom.idl : MobilePhoneCom 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(MobilePhoneCom.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(DFEA3737-C126-4A05-A72C-271F91052E77),
+	dual,
+	nonextensible,
+	helpstring("IMobilePhone 接口"),
+	pointer_default(unique)
+]
+interface IMobilePhone : IDispatch{
+	[id(1), helpstring("方法talk")] HRESULT talk(void);
+	[id(2), helpstring("方法getName")] HRESULT getName([out,retval] BSTR* name);
+};
+[
+	uuid(E7BB0064-9D62-4AA3-AB19-808CC5857A52),
+	version(1.0),
+	helpstring("MobilePhoneCom 1.0 类型库")
+]
+library MobilePhoneComLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(5E35EAA5-7B4D-41D3-A26C-0475323F5EEF),
+		helpstring("MobilePhone Class")
+	]
+	coclass MobilePhone
+	{
+		[default] interface IMobilePhone;
+	};
+};

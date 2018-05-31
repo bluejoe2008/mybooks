@@ -1,0 +1,54 @@
+// McdOcx.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(McdOcx.tlb)，该类型库将成为
+// McdOcx.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(120FBE77-6E6D-49E0-BFC1-B91EB1FD8D14), version(1.0),
+  helpfile("McdOcx.hlp"),
+  helpstring("McdOcx ActiveX 控件模块"),
+  control ]
+library McdOcxLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CMcdOcxCtrl 的主调度接口
+
+	[ uuid(F7C37EC0-EA78-45D9-8F06-824EBDAA52E5),
+	  helpstring("McdOcx Control 的调度接口")]
+	dispinterface _DMcdOcx
+	{
+		properties:
+			[id(2) , helpstring("属性 Direction")] SHORT Direction;
+	methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(1), helpstring("方法SetNumbers")] void SetNumbers(SHORT a, SHORT b);
+	};
+
+	//  CMcdOcxCtrl 的事件调度接口
+
+	[ uuid(39D92FC9-5F9D-452F-923F-83E7B83AD3EB),
+	  helpstring("McdOcx Control 的事件接口") ]
+	dispinterface _DMcdOcxEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+	};
+
+	//  CMcdOcxCtrl 的类信息
+
+	[ uuid(1A1B254E-D5AA-406F-A8B6-A0218E8843CC),
+	  helpstring("McdOcx Control"), control ]
+	coclass McdOcx
+	{
+		[default] dispinterface _DMcdOcx;
+		[default, source] dispinterface _DMcdOcxEvents;
+	};
+
+};

@@ -1,0 +1,27 @@
+HKCR
+{
+	MobilePhoneCom.MobilePhone.1 = s 'MobilePhone Class'
+	{
+		CLSID = s '{5E35EAA5-7B4D-41D3-A26C-0475323F5EEF}'
+	}
+	MobilePhoneCom.MobilePhone = s 'MobilePhone Class'
+	{
+		CLSID = s '{5E35EAA5-7B4D-41D3-A26C-0475323F5EEF}'
+		CurVer = s 'MobilePhoneCom.MobilePhone.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {5E35EAA5-7B4D-41D3-A26C-0475323F5EEF} = s 'MobilePhone Class'
+		{
+			ProgID = s 'MobilePhoneCom.MobilePhone.1'
+			VersionIndependentProgID = s 'MobilePhoneCom.MobilePhone'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{E7BB0064-9D62-4AA3-AB19-808CC5857A52}'
+		}
+	}
+}

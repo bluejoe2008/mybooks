@@ -1,0 +1,34 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>MCD测试网页</title>
+</head>
+
+<body>
+<form>
+<p>
+<object id="McdCtrl" classid="clsid:1A1B254E-D5AA-406F-A8B6-A0218E8843CC" width="250" height="120">
+</object>
+</p>
+	<p>
+	<input id="a" type="text" size="4" value="12">
+	<input id="b" type="text" size="4" value="16">
+	<input type="button" value="重新计算" name="B3" onclick="B3_onclick();"></p>
+	<p>
+	<input id="c" name="direction" type="radio">向上
+	<input id="d" name="direction" type="radio" checked>向下
+	<input type="button" value="设置Direction属性" name="B4" onclick="B4_onclick();"></p>
+<script language="javascript">
+	function B3_onclick()
+	{
+		document.all.McdCtrl.SetNumbers(document.all.a.value, document.all.b.value);
+	}
+	
+	function B4_onclick()
+	{
+		document.all.McdCtrl.Direction = (document.all.c.checked ? 1 : 0);
+	}
+</script>
+</form>
+</body>
+</html>
