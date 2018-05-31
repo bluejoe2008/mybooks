@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312"?>
+<hotel>
+	<hotelName>同福客栈</hotelName>
+	<boss>佟湘玉</boss>
+	<maxClients>50</maxClients>
+	<isOpen>true</isOpen>
+</hotel>

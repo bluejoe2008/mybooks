@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <PERSONS>
+    <NAME>佟湘玉</NAME>
+    <AGE>28</AGE>
+    <GENDER>false</GENDER>
+    <WORDS>额滴神啊…</WORDS>
+  </PERSONS>
+  <PERSONS>
+    <NAME>白展堂</NAME>
+    <AGE>27</AGE>
+    <GENDER>true</GENDER>
+    <WORDS>葵花点穴手！</WORDS>
+  </PERSONS>
+  <PERSONS>
+    <NAME>郭芙蓉</NAME>
+    <AGE>22</AGE>
+    <GENDER>false</GENDER>
+    <WORDS>排山倒海，排山再倒海，排山再再再倒海…</WORDS>
+  </PERSONS>
+  <PERSONS>
+    <NAME>吕轻侯</NAME>
+    <AGE>24</AGE>
+    <GENDER>true</GENDER>
+    <WORDS>子曾经曰过…</WORDS>
+  </PERSONS>
+  <PERSONS>
+    <NAME>李秀莲</NAME>
+    <AGE>30</AGE>
+    <GENDER>true</GENDER>
+    <WORDS>都低调啊低调！！</WORDS>
+  </PERSONS>
+  <PERSONS>
+    <NAME>莫小贝</NAME>
+    <AGE>12</AGE>
+    <GENDER>false</GENDER>
+    <WORDS>嫂子~~~~~</WORDS>
+  </PERSONS>
+</NewDataSet>

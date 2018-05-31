@@ -1,0 +1,16 @@
+<script>
+	var xmlDocument = new ActiveXObject("Msxml2.DOMDocument.4.0");
+	xmlDocument.load("persons.xml");
+	
+	var rootNode = xmlDocument.documentElement; //<persons>
+	var personNodes = rootNode.selectNodes("person"); //<person>
+	
+	var s = "";
+	for(var i = 0; i < personNodes.length; i++)
+	{
+		var personNode = personNodes.item(i);
+		s += "\r\nname: " + personNode.selectSingleNode("name").text + "\tage: " + personNode.selectSingleNode("age").text;
+	}
+	
+	alert(s);
+</script>
