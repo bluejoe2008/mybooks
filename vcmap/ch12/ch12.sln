@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProcessTest", "ProcessTest\ProcessTest.vcproj", "{348C8C75-7783-4DED-BA6E-EDAAC2157B5E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProcessTermTest", "ProcessTermTest\ProcessTermTest.vcproj", "{48F6F397-23C1-4D9D-AD65-49D2797DA799}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProcessMessageTest", "ProcessMessageTest\ProcessMessageTest.vcproj", "{261584FB-DB12-4B68-9C19-61609CA44839}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileMappingServer", "FileMappingServer\FileMappingServer.vcproj", "{08D4E499-87DA-468C-B9A6-BF9F39A60017}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileMappingClient", "FileMappingClient\FileMappingClient.vcproj", "{F15F18B3-E277-4ACB-B14D-A4621A54A39D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PipeServer", "PipeServer\PipeServer.vcproj", "{3A9F78C0-6110-4269-8240-429027E14F38}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NamedPipeServer", "NamedPipeServer\NamedPipeServer.vcproj", "{F39E9110-CC10-424B-8AA3-2F8516372F8D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NamedPipeClient", "NamedPipeClient\NamedPipeClient.vcproj", "{AA2370BA-4201-4BF5-A23F-D77B0FBB6CDB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MailslotServer", "MailslotServer\MailslotServer.vcproj", "{F1E5607F-827E-4199-890A-1F06B327719F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MailslotClient", "MailslotClient\MailslotClient.vcproj", "{6A42761C-0F95-4A30-9221-4A4E619E84AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PipeClient", "PipeClient\PipeClient.vcproj", "{75E71830-1C94-44EA-8AF7-30CEA4113BB8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClipboardTest", "ClipboardTest\ClipboardTest.vcproj", "{7780422A-F74E-45A9-A8BC-E2CD442E73C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{348C8C75-7783-4DED-BA6E-EDAAC2157B5E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{348C8C75-7783-4DED-BA6E-EDAAC2157B5E}.Debug|Win32.Build.0 = Debug|Win32
+		{348C8C75-7783-4DED-BA6E-EDAAC2157B5E}.Release|Win32.ActiveCfg = Release|Win32
+		{348C8C75-7783-4DED-BA6E-EDAAC2157B5E}.Release|Win32.Build.0 = Release|Win32
+		{48F6F397-23C1-4D9D-AD65-49D2797DA799}.Debug|Win32.ActiveCfg = Debug|Win32
+		{48F6F397-23C1-4D9D-AD65-49D2797DA799}.Debug|Win32.Build.0 = Debug|Win32
+		{48F6F397-23C1-4D9D-AD65-49D2797DA799}.Release|Win32.ActiveCfg = Release|Win32
+		{48F6F397-23C1-4D9D-AD65-49D2797DA799}.Release|Win32.Build.0 = Release|Win32
+		{261584FB-DB12-4B68-9C19-61609CA44839}.Debug|Win32.ActiveCfg = Debug|Win32
+		{261584FB-DB12-4B68-9C19-61609CA44839}.Debug|Win32.Build.0 = Debug|Win32
+		{261584FB-DB12-4B68-9C19-61609CA44839}.Release|Win32.ActiveCfg = Release|Win32
+		{261584FB-DB12-4B68-9C19-61609CA44839}.Release|Win32.Build.0 = Release|Win32
+		{08D4E499-87DA-468C-B9A6-BF9F39A60017}.Debug|Win32.ActiveCfg = Debug|Win32
+		{08D4E499-87DA-468C-B9A6-BF9F39A60017}.Debug|Win32.Build.0 = Debug|Win32
+		{08D4E499-87DA-468C-B9A6-BF9F39A60017}.Release|Win32.ActiveCfg = Release|Win32
+		{08D4E499-87DA-468C-B9A6-BF9F39A60017}.Release|Win32.Build.0 = Release|Win32
+		{F15F18B3-E277-4ACB-B14D-A4621A54A39D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F15F18B3-E277-4ACB-B14D-A4621A54A39D}.Debug|Win32.Build.0 = Debug|Win32
+		{F15F18B3-E277-4ACB-B14D-A4621A54A39D}.Release|Win32.ActiveCfg = Release|Win32
+		{F15F18B3-E277-4ACB-B14D-A4621A54A39D}.Release|Win32.Build.0 = Release|Win32
+		{3A9F78C0-6110-4269-8240-429027E14F38}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A9F78C0-6110-4269-8240-429027E14F38}.Debug|Win32.Build.0 = Debug|Win32
+		{3A9F78C0-6110-4269-8240-429027E14F38}.Release|Win32.ActiveCfg = Release|Win32
+		{3A9F78C0-6110-4269-8240-429027E14F38}.Release|Win32.Build.0 = Release|Win32
+		{F39E9110-CC10-424B-8AA3-2F8516372F8D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F39E9110-CC10-424B-8AA3-2F8516372F8D}.Debug|Win32.Build.0 = Debug|Win32
+		{F39E9110-CC10-424B-8AA3-2F8516372F8D}.Release|Win32.ActiveCfg = Release|Win32
+		{F39E9110-CC10-424B-8AA3-2F8516372F8D}.Release|Win32.Build.0 = Release|Win32
+		{AA2370BA-4201-4BF5-A23F-D77B0FBB6CDB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AA2370BA-4201-4BF5-A23F-D77B0FBB6CDB}.Debug|Win32.Build.0 = Debug|Win32
+		{AA2370BA-4201-4BF5-A23F-D77B0FBB6CDB}.Release|Win32.ActiveCfg = Release|Win32
+		{AA2370BA-4201-4BF5-A23F-D77B0FBB6CDB}.Release|Win32.Build.0 = Release|Win32
+		{F1E5607F-827E-4199-890A-1F06B327719F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1E5607F-827E-4199-890A-1F06B327719F}.Debug|Win32.Build.0 = Debug|Win32
+		{F1E5607F-827E-4199-890A-1F06B327719F}.Release|Win32.ActiveCfg = Release|Win32
+		{F1E5607F-827E-4199-890A-1F06B327719F}.Release|Win32.Build.0 = Release|Win32
+		{6A42761C-0F95-4A30-9221-4A4E619E84AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A42761C-0F95-4A30-9221-4A4E619E84AE}.Debug|Win32.Build.0 = Debug|Win32
+		{6A42761C-0F95-4A30-9221-4A4E619E84AE}.Release|Win32.ActiveCfg = Release|Win32
+		{6A42761C-0F95-4A30-9221-4A4E619E84AE}.Release|Win32.Build.0 = Release|Win32
+		{75E71830-1C94-44EA-8AF7-30CEA4113BB8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{75E71830-1C94-44EA-8AF7-30CEA4113BB8}.Debug|Win32.Build.0 = Debug|Win32
+		{75E71830-1C94-44EA-8AF7-30CEA4113BB8}.Release|Win32.ActiveCfg = Release|Win32
+		{75E71830-1C94-44EA-8AF7-30CEA4113BB8}.Release|Win32.Build.0 = Release|Win32
+		{7780422A-F74E-45A9-A8BC-E2CD442E73C4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7780422A-F74E-45A9-A8BC-E2CD442E73C4}.Debug|Win32.Build.0 = Debug|Win32
+		{7780422A-F74E-45A9-A8BC-E2CD442E73C4}.Release|Win32.ActiveCfg = Release|Win32
+		{7780422A-F74E-45A9-A8BC-E2CD442E73C4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
