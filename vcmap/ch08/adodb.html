@@ -1,0 +1,17 @@
+<script>
+	var conn = new ActiveXObject("ADODB.Connection");
+	conn.Open("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=E:\\study\\keys\\hotel.mdb");
+	var rs = new ActiveXObject("ADODB.RecordSet");
+	rs.open("select * from PERSON", conn, 3, 3);
+	var msg = "";
+
+	while(!rs.eof)
+	{
+		//输出每一行记录
+		msg += rs("name") + ": " + rs("words") + "\r\n\r\n";
+		rs.MoveNext();
+	}
+
+	rs.close();
+	alert(msg);
+</script>
