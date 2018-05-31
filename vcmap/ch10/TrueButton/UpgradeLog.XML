@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TrueButton">
+</Property><Property Name="解决方案文件" Value="E:\study\keys\ch10\TrueButton\TrueButton.sln">
+</Property><Property Name="Date" Value="2009年1月17日">
+</Property><Property Name="Time" Value="17:37:07">
+</Property></Properties><Event ErrorLevel="2" Project="TrueButton" Source="TrueButton.vcproj" Description="XML 分析期间发生以下错误:&#xA;&#xA;文件: E:\study\keys\ch10\TrueButton\TrueButton.vcproj&#xA;行: 10&#xA;列: 2&#xA;错误信息:&#xA;'9.00' violates enumeration constraint of '7.00 7,00 7.10 7,10 8.00 8,00'.&#xA;The attribute 'Version' with value '9.00' failed to parse.&#xA;&#xA;文件“E:\study\keys\ch10\TrueButton\TrueButton.vcproj”未能加载。">
+</Event><Event ErrorLevel="2" Project="TrueButton" Source="TrueButton.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="TrueButton" Source="TrueButton.vcproj" Description="未转换">
+</Event></UpgradeLog>
