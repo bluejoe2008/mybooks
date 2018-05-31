@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: xiyou - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~2\BLUEJO~1.FAM\LOCALS~1\Temp\RSP271.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/xiyou.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Visual Studio Projects\cpp\game\xiyou.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~2\BLUEJO~1.FAM\LOCALS~1\Temp\RSP271.tmp" 
+Creating temporary file "C:\DOCUME~2\BLUEJO~1.FAM\LOCALS~1\Temp\RSP272.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/xiyou.pdb" /debug /machine:I386 /out:"Debug/xiyou.exe" /pdbtype:sept 
+".\Debug\actor.obj"
+".\Debug\god.obj"
+".\Debug\monk.obj"
+".\Debug\monster.obj"
+".\Debug\xiyou.obj"
+]
+Creating command line "link.exe @C:\DOCUME~2\BLUEJO~1.FAM\LOCALS~1\Temp\RSP272.tmp"
+<h3>Output Window</h3>
+Compiling...
+xiyou.cpp
+D:\Visual Studio Projects\cpp\game\xiyou.cpp(73) : warning C4101: 'a' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+xiyou.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,27 @@
+// God.cpp: implementation of the God class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "God.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+God::God(string name, bool gender)
+	: Actor(name, gender)
+{
+
+}
+
+
+void God::fly()
+{
+	say("·ÉÑ½·É...");
+}
+
+void God::printName()
+{
+	cout << "God::printName()... " << endl;
+	cout << "_name: " << _name << endl;
+}

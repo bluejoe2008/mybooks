@@ -1,0 +1,42 @@
+# Project: game
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe -D__DEBUG__
+CC   = gcc.exe -D__DEBUG__
+WINDRES = windres.exe
+RES  = 
+OBJ  = monk.o monster.o xiyou.o actor.o god.o $(RES)
+LINKOBJ  = monk.o monster.o xiyou.o actor.o god.o $(RES)
+LIBS =  -L"d:/Dev-Cpp/lib"  -g3 
+INCS =  -I"d:/Dev-Cpp/include" 
+CXXINCS =  -I"d:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"d:/Dev-Cpp/include/c++/3.4.2/backward"  -I"d:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"d:/Dev-Cpp/include/c++/3.4.2"  -I"d:/Dev-Cpp/include" 
+BIN  = game.exe
+CXXFLAGS = $(CXXINCS)   -g3
+CFLAGS = $(INCS)   -g3
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before game.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "game.exe" $(LIBS)
+
+monk.o: monk.cpp
+	$(CPP) -c monk.cpp -o monk.o $(CXXFLAGS)
+
+monster.o: monster.cpp
+	$(CPP) -c monster.cpp -o monster.o $(CXXFLAGS)
+
+xiyou.o: xiyou.cpp
+	$(CPP) -c xiyou.cpp -o xiyou.o $(CXXFLAGS)
+
+actor.o: actor.cpp
+	$(CPP) -c actor.cpp -o actor.o $(CXXFLAGS)
+
+god.o: god.cpp
+	$(CPP) -c god.cpp -o god.o $(CXXFLAGS)
