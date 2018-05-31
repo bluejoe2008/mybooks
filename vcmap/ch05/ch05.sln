@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MfcCollectionTest", "MfcCollectionTest\MfcCollectionTest.vcproj", "{E2D8AED3-CD2E-49D6-9B2F-664F955E5928}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StlFunctionalTest", "StlFunctionalTest\StlFunctionalTest.vcproj", "{6ECE39BE-E16D-411F-B187-F0D809A633A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2D8AED3-CD2E-49D6-9B2F-664F955E5928}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2D8AED3-CD2E-49D6-9B2F-664F955E5928}.Debug|Win32.Build.0 = Debug|Win32
+		{E2D8AED3-CD2E-49D6-9B2F-664F955E5928}.Release|Win32.ActiveCfg = Release|Win32
+		{E2D8AED3-CD2E-49D6-9B2F-664F955E5928}.Release|Win32.Build.0 = Release|Win32
+		{6ECE39BE-E16D-411F-B187-F0D809A633A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6ECE39BE-E16D-411F-B187-F0D809A633A7}.Debug|Win32.Build.0 = Debug|Win32
+		{6ECE39BE-E16D-411F-B187-F0D809A633A7}.Release|Win32.ActiveCfg = Release|Win32
+		{6ECE39BE-E16D-411F-B187-F0D809A633A7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
