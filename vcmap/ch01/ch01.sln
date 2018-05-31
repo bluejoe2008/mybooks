@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HotelManager", "HotelManager\HotelManager.vcproj", "{3B3CE90E-7A2C-4BBE-90CA-45C9BECD1A57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwordMan", "SwordMan\SwordMan.vcproj", "{4BB39F97-E275-415F-9E5F-A37450CCDE3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B3CE90E-7A2C-4BBE-90CA-45C9BECD1A57}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3B3CE90E-7A2C-4BBE-90CA-45C9BECD1A57}.Debug|Win32.Build.0 = Debug|Win32
+		{3B3CE90E-7A2C-4BBE-90CA-45C9BECD1A57}.Release|Win32.ActiveCfg = Release|Win32
+		{3B3CE90E-7A2C-4BBE-90CA-45C9BECD1A57}.Release|Win32.Build.0 = Release|Win32
+		{4BB39F97-E275-415F-9E5F-A37450CCDE3C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4BB39F97-E275-415F-9E5F-A37450CCDE3C}.Debug|Win32.Build.0 = Debug|Win32
+		{4BB39F97-E275-415F-9E5F-A37450CCDE3C}.Release|Win32.ActiveCfg = Release|Win32
+		{4BB39F97-E275-415F-9E5F-A37450CCDE3C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
